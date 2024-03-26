@@ -1,0 +1,126 @@
+header {
+    position: relative; /* Para que el rectángulo sea relativo a este contenedor */
+}
+
+.rectangulo {
+    position: absolute; /* Para poder posicionarlo dentro del encabezado */
+    top: -10px; /* Lo situamos en la parte superior */
+    left: -1%; /* Lo situamos al inicio */
+    width: 102%; /* Ancho completo del encabezado */
+    height: 200px; /* Altura del rectángulo */
+    background-color: rgb(100, 41, 120); /* Color violeta */
+   
+}
+
+.fondo{
+    position:absolute;
+    top: 22%;
+    left: 0; /* Lo situamos al inicio */
+    width: 100%; /* Ancho completo del encabezado */
+    height: 83%; /* Altura del rectángulo */
+    opacity: 40%;
+    background-color: rgb(140, 77, 121);
+}
+
+.Imagencentral {
+    position: absolute;
+    top: 15%;
+    width: 215px;
+    height: 211px;
+    right: 11%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, -50%);
+    border-color: rgb(0, 0, 0);
+    border-style:groove;
+    
+    display: block;
+    border-radius: 0%; /* Hace que los bordes sean circulares */
+}
+
+.Imagencentral img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.textocabecera{
+    position:absolute;
+    top: 5%;
+    left: 4%; /* Lo situamos al inicio */
+    width: 20%; /* Ancho completo del encabezado */
+    height: 40%; /* Altura del rectángulo */
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    opacity:40% ;
+    
+}
+
+.tablas {
+    position: absolute;
+    top: 50%;
+    width: 210px;
+    height: 210px;
+    right: 65%;
+    transform: translate(50%, -50%);
+    opacity: 65%;
+    
+}
+
+.tablasperfil{
+
+    position: absolute;
+    top: 90%;
+    right: 165px; /* Lo situamos al inicio */
+    width: 300px; /* Ancho completo del encabezado */
+    height: 5%;
+    transform: translate(50%, -50%);
+    display: block;
+    
+}
+
+
+.nombre{
+    position: absolute;
+    top: 30%;
+    width: 250px;
+    right: 11%;
+    transform: translate(50%, -50%);
+    color: rgb(0, 0, 0);
+    
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    right: 11%;
+    transform: translate(50%, -50%);
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.rectanguloperfil{
+    position: absolute; /* Para poder posicionarlo dentro del encabezado */
+    top: 10px; /* Lo situamos en la parte superior */
+    right: 60px; /* Lo situamos al inicio */
+    width: 300px; /* Ancho completo del encabezado */
+    height: 95%; /* Altura del rectángulo */
+    background-color: rgb(255, 255, 255); /* Color violeta */
+    opacity: 30%;
+
+}
+
+.textocentral{
+    position: absolute;
+    top: 73%;
+    width: 550px;
+    right: 55%;
+    transform: translate(50%, -50%);
+    color: rgb(0, 0, 0);
+    
+    
+}
